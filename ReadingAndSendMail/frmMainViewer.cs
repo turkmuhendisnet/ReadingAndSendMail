@@ -692,5 +692,24 @@ namespace ReadingAndSendMail
         {
             EmailCheck((TextBox)sender);
         }
+
+
+        private void ShowtolHint(string sToolTipTitle, ToolTipIcon tToolTipIcon,string sMesaj ,Control cComponent)
+        {
+            tolHint.IsBalloon = true;
+            tolHint.ToolTipTitle = sToolTipTitle;
+            tolHint.ToolTipIcon = tToolTipIcon;
+            tolHint.Show(sMesaj, cComponent, cComponent.Location.X-20, cComponent.Location.Y-80);
+        }
+
+        private void edtMailUzantısı_MouseHover(object sender, EventArgs e)
+        {
+            ShowtolHint("Hello, world!", ToolTipIcon.Info, "Please create a world.", (TextBox)sender);
+        }
+
+        private void edtMailUzantısı_MouseLeave(object sender, EventArgs e)
+        {
+            tolHint.Hide((TextBox)sender);
+        }
     }
 }

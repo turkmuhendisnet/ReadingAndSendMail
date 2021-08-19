@@ -109,7 +109,7 @@ namespace ReadingAndSendMail
             this.lstDebug = new System.Windows.Forms.ListBox();
             this.tmrSaat = new System.Windows.Forms.Timer(this.components);
             this.tmrKontrol = new System.Windows.Forms.Timer(this.components);
-            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.tolHint = new System.Windows.Forms.ToolTip(this.components);
             this.grpBxMain.SuspendLayout();
             this.tbsTabs.SuspendLayout();
             this.tbsMail.SuspendLayout();
@@ -380,6 +380,8 @@ namespace ReadingAndSendMail
             this.edtMailUzantısı.Size = new System.Drawing.Size(180, 21);
             this.edtMailUzantısı.TabIndex = 1;
             this.edtMailUzantısı.Text = "test.com.tr";
+            this.edtMailUzantısı.MouseLeave += new System.EventHandler(this.edtMailUzantısı_MouseLeave);
+            this.edtMailUzantısı.MouseHover += new System.EventHandler(this.edtMailUzantısı_MouseHover);
             // 
             // lblMailUzantısı
             // 
@@ -1046,7 +1048,7 @@ namespace ReadingAndSendMail
         private System.Windows.Forms.TextBox bedGidDosKayDiz;
         private System.Windows.Forms.Label lblGidDosKayDiz;
         private System.Windows.Forms.TextBox bedGelDosKayDiz;
-        private System.Windows.Forms.ToolTip toolTip1;
+        private System.Windows.Forms.ToolTip tolHint;
     }
 }
 
