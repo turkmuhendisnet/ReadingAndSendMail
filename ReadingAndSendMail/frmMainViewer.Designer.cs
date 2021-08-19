@@ -938,7 +938,7 @@ namespace ReadingAndSendMail
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmMainViewer";
-            this.Text = "WMS Online Sipariş Alımı";
+            this.Text = "Mail Görüntüleyici";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmMain_FormClosed);
             this.Load += new System.EventHandler(this.frmMain_Load);
             this.grpBxMain.ResumeLayout(false);
