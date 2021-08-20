@@ -1,0 +1,120 @@
+-----------19.08.2021 17:06:21 Tarihli Hata Kayıtları-----------------
+
+Hata Satırı : tır 368
+
+Hata Mesajı: ArgumentOutOfRangeException
+
+Hata Tipi: System.ArgumentOutOfRangeException
+
+Hata Yeri : InvalidArgument='1' değeri 'index' için geçerli değil.
+Parametre adı: index
+
+--------------------------------*End*------------------------------------------
+
+
+-----------19.08.2021 17:06:42 Tarihli Hata Kayıtları-----------------
+
+Hata Satırı : tır 251
+
+Hata Mesajı: SmtpException
+
+Hata Tipi: System.Net.Mail.SmtpException
+
+Hata Yeri : Posta gönderme hatası.
+
+--------------------------------*End*------------------------------------------
+
+
+-----------19.08.2021 17:07:12 Tarihli Hata Kayıtları-----------------
+
+Hata Satırı : tır 388
+
+Hata Mesajı: SmtpException
+
+Hata Tipi: System.Net.Mail.SmtpException
+
+Hata Yeri : Posta gönderme hatası.
+
+--------------------------------*End*------------------------------------------
+
+
+-----------19.08.2021 17:07:33 Tarihli Hata Kayıtları-----------------
+
+Hata Satırı : tır 251
+
+Hata Mesajı: SmtpException
+
+Hata Tipi: System.Net.Mail.SmtpException
+
+Hata Yeri : Posta gönderme hatası.
+
+--------------------------------*End*------------------------------------------
+
+
+-----------19.08.2021 17:08:31 Tarihli Hata Kayıtları-----------------
+
+Hata Satırı : tır 368
+
+Hata Mesajı: ArgumentOutOfRangeException
+
+Hata Tipi: System.ArgumentOutOfRangeException
+
+Hata Yeri : InvalidArgument='1' değeri 'index' için geçerli değil.
+Parametre adı: index
+
+--------------------------------*End*------------------------------------------
+
+
+-----------19.08.2021 17:08:52 Tarihli Hata Kayıtları-----------------
+
+Hata Satırı : tır 251
+
+Hata Mesajı: SmtpException
+
+Hata Tipi: System.Net.Mail.SmtpException
+
+Hata Yeri : Posta gönderme hatası.
+
+--------------------------------*End*------------------------------------------
+
+
+-----------19.08.2021 17:11:32 Tarihli Hata Kayıtları-----------------
+
+Hata Satırı : tır 368
+
+Hata Mesajı: ArgumentOutOfRangeException
+
+Hata Tipi: System.ArgumentOutOfRangeException
+
+Hata Yeri : InvalidArgument='1' değeri 'index' için geçerli değil.
+Parametre adı: index
+
+--------------------------------*End*------------------------------------------
+
+
+-----------19.08.2021 17:12:21 Tarihli Hata Kayıtları-----------------
+
+Hata Satırı : tır 251
+
+Hata Mesajı: SmtpException
+
+Hata Tipi: System.Net.Mail.SmtpException
+
+Hata Yeri : Posta gönderme hatası.
+
+--------------------------------*End*------------------------------------------
+
+
+-----------19.08.2021 17:13:41 Tarihli Hata Kayıtları-----------------
+
+Hata Satırı : tır 388
+
+Hata Mesajı: SmtpException
+
+Hata Tipi: System.Net.Mail.SmtpException
+
+Hata Yeri : Posta gönderme hatası.
+
+--------------------------------*End*------------------------------------------
+
+

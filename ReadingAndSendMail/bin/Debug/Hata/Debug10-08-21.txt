@@ -1,0 +1,39 @@
+-----------10.08.2021 14:38:35 Tarihli Hata Kayıtları-----------------
+
+Hata Satırı : tır 323
+
+Hata Mesajı: Imap4Exception
+
+Hata Tipi: ActiveUp.Net.Mail.Imap4Exception
+
+Hata Yeri : Command "login esipar@toksozgrup.com.tr SipaR.2021" failed
+Server replied: NO LOGIN failed.
+
+
+--------------------------------*End*------------------------------------------
+
+
+-----------10.08.2021 14:41:44 Tarihli Hata Kayıtları-----------------
+Hata Satırı : tır 321
+Hata Mesajı: Imap4Exception
+Hata Tipi: ActiveUp.Net.Mail.Imap4Exception
+Hata Yeri : Command "login esipar@toksozgrup.com.tr SipaR.2021" failed
+Server replied: NO LOGIN failed.
+
+--------------------------------*End*------------------------------------------
+
+-----------10.08.2021 14:42:42 Tarihli Hata Kayıtları-----------------
+
+Hata Satırı : tır 323
+
+Hata Mesajı: Imap4Exception
+
+Hata Tipi: ActiveUp.Net.Mail.Imap4Exception
+
+Hata Yeri : Command "login esipar@toksozgrup.com.tr SipaR.2021" failed
+Server replied: NO LOGIN failed.
+
+
+--------------------------------*End*------------------------------------------
+
+
