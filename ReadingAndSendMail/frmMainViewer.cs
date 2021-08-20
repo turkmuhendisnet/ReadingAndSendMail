@@ -123,8 +123,8 @@ namespace ReadingAndSendMail
         /// </summary>
         /// <param name="ex">Oluşan hata</param>
         public void AppendLogFile(string sErrorText)
-        {
-            string filepath = Application.StartupPath;
+        {        
+            string filepath = txtHatDiz.Text;
 
             if (!Directory.Exists(filepath))
                 Directory.CreateDirectory(filepath);
@@ -458,13 +458,16 @@ namespace ReadingAndSendMail
         /// <param name="sKeyName">Alt başlık</param>
         /// <param name="sDefault">Değer</param>
         /// <returns></returns>
-        private string ReadIni(string sSectionName, string sKeyName, string sDefault = "")
+        private string ReadIni(string sSectionName, string sKeyName, string sDefault = "",bool bUseEmty=false)
         {
             StringBuilder sb = new StringBuilder(5000);
             try
             {
                 IniFileLibrary.GetPrivateProfileString(sSectionName, sKeyName, "", sb, sb.Capacity, Application.StartupPath + @"config.ini");
-                return sb.ToString();
+                if (bUseEmty && sb.ToString()=="")
+                    return sDefault;
+                else
+                    return sb.ToString();
             }
             catch(Exception Ex)
             {
@@ -513,6 +516,7 @@ namespace ReadingAndSendMail
 
             WriteIni("Ayarlar", "GelenDosyalarinKaydedilecegiDizin", bedGelDosKayDiz.Text);
             WriteIni("Ayarlar", "GidenDosyalarinKaydedilecegiDizin", bedGidDosKayDiz.Text);
+            WriteIni("Ayarlar", "HataDosyasiKaydedilecegiDizin", txtHatDiz.Text);
             WriteIni("Ayarlar", "KontrolSikligi", edtKontrolSikligi.Text);
             WriteIni("Ayarlar", "CevapMailiGonderilsin", chbCevapMailiGonderilsin.Checked ? "1" : "0");
 
@@ -560,8 +564,9 @@ namespace ReadingAndSendMail
             edtGonKulSif.Text    = ReadIni("Gonderen", "Sifre");
 
 
-            bedGelDosKayDiz.Text    = ReadIni("Ayarlar", "GelenDosyalarinKaydedilecegiDizin", Application.StartupPath + @"\Gelen");
-            bedGidDosKayDiz.Text    = ReadIni("Ayarlar", "GidenDosyalarinKaydedilecegiDizin", Application.StartupPath + @"\Giden");
+            bedGelDosKayDiz.Text    = ReadIni("Ayarlar", "GelenDosyalarinKaydedilecegiDizin", Application.StartupPath + @"\Gelen",true);
+            bedGidDosKayDiz.Text    = ReadIni("Ayarlar", "GidenDosyalarinKaydedilecegiDizin", Application.StartupPath + @"\Giden",true);
+            txtHatDiz.Text          = ReadIni("Ayarlar", "HataDosyasiKaydedilecegiDizin", Application.StartupPath+ @"\Hata",true);           
             edtKontrolSikligi.Text  = ReadIni("Ayarlar", "KontrolSikligi", "5");
             chbCevapMailiGonderilsin.Checked = ReadIni("Ayarlar", "CevapMailiGonderilsin") == "1" ? true : false;
 
@@ -693,23 +698,9 @@ namespace ReadingAndSendMail
             EmailCheck((TextBox)sender);
         }
 
-
-        private void ShowtolHint(string sToolTipTitle, ToolTipIcon tToolTipIcon,string sMesaj ,Control cComponent)
+        private void btnHatDiz_Click(object sender, EventArgs e)
         {
-            tolHint.IsBalloon = true;
-            tolHint.ToolTipTitle = sToolTipTitle;
-            tolHint.ToolTipIcon = tToolTipIcon;
-            tolHint.Show(sMesaj, cComponent, cComponent.Location.X-20, cComponent.Location.Y-80);
-        }
-
-        private void edtMailUzantısı_MouseHover(object sender, EventArgs e)
-        {
-            ShowtolHint("Hello, world!", ToolTipIcon.Info, "Please create a world.", (TextBox)sender);
-        }
-
-        private void edtMailUzantısı_MouseLeave(object sender, EventArgs e)
-        {
-            tolHint.Hide((TextBox)sender);
+            btnHatDiz.Text = GetFileLocation();
         }
     }
 }

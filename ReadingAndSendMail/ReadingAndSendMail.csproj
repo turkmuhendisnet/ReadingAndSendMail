@@ -93,6 +93,7 @@
     </Compile>
     <Compile Include="ImapLibrary.cs" />
     <Compile Include="IniFileLibrary.cs" />
+    <Compile Include="obj\Debug\.NETFramework,Version=v4.8.AssemblyAttributes.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmMailViewer.resx">
@@ -101,6 +102,9 @@
     <EmbeddedResource Include="frmMainViewer.resx">
       <DependentUpon>frmMainViewer.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="obj\Debug\ReadingAndSendMail.frmMailViewer.resources" />
+    <EmbeddedResource Include="obj\Debug\ReadingAndSendMail.frmMainViewer.resources" />
+    <EmbeddedResource Include="obj\Debug\ReadingAndSendMail.Properties.Resources.resources" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -112,6 +116,15 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <None Include=".editorconfig" />
+    <None Include="bin\DebugConfig.ini" />
+    <None Include="bin\Debug\ReadingAndSendMail.exe.config" />
+    <None Include="obj\Debugconfig.ini" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\ReadingAndSendMail.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\ReadingAndSendMail.csproj.CopyComplete" />
+    <None Include="obj\Debug\ReadingAndSendMail.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\ReadingAndSendMail.csproj.GenerateResource.cache" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -139,7 +152,30 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\Debug\ActiveUp.Net.Common.dll" />
+    <Content Include="bin\Debug\ActiveUp.Net.Common.xml" />
+    <Content Include="bin\Debug\ActiveUp.Net.dll" />
+    <Content Include="bin\Debug\ActiveUp.Net.Imap4.dll" />
+    <Content Include="bin\Debug\ActiveUp.Net.Imap4.xml" />
+    <Content Include="bin\Debug\ActiveUp.Net.Mail.dll" />
+    <Content Include="bin\Debug\ActiveUp.Net.Mail.xml" />
+    <Content Include="bin\Debug\ActiveUp.Net.Smtp.dll" />
+    <Content Include="bin\Debug\ActiveUp.Net.Smtp.xml" />
+    <Content Include="bin\Debug\Hata\Debug10-08-21.txt" />
+    <Content Include="bin\Debug\Hata\Debug19-08-21.txt" />
+    <Content Include="bin\Debug\ReadingAndSendMail.exe" />
+    <Content Include="bin\Debug\ReadingAndSendMail.pdb" />
+    <Content Include="obj\Debug\ReadingAndSendMail.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\ReadingAndSendMail.exe" />
+    <Content Include="obj\Debug\ReadingAndSendMail.pdb" />
+    <Content Include="obj\Debug\TempPE\Properties.Resources.Designer.cs.dll" />
     <Content Include="TextTemplate.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\Gelen\" />
+    <Folder Include="bin\Debug\Giden\" />
+    <Folder Include="bin\Release\" />
+    <Folder Include="obj\Debug\InProcessTempFiles\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
