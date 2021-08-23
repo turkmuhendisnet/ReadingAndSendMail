@@ -31,3 +31,9 @@
 
 ![Settings View](https://github.com/turkmuhendisnet/ReadingAndSendMail/blob/master/ReadingAndSendMail/ReadingAndSendMailSettingsView.PNG)
 
+
+## Used Technologies
+- .NET Framework 4.8 
+- C#
+- MailSystem.Net-trunk
+
