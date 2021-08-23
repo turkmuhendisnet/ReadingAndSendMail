@@ -33,7 +33,7 @@
 
 
 ### Mail Görüntüleyici
-![Mail View](https://github.com/turkmuhendisnet/ReadingAndSendMail/blob/master/ReadingAndSendMail/ReadingAndSendMailMailView.PNG)
+![Mail View](https://github.com/turkmuhendisnet/ReadingAndSendMail/blob/master/ReadingAndSendMail/Image/ReadingAndSendMailMailView.PNG)
 
 
 ## Used Technologies
