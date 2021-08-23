@@ -26,11 +26,6 @@ C:\Users\AliCAKIR\source\repos\WMS_OnlineSiparisAlimi\WMS_OnlineSiparisAlimi\WMS
 C:\Users\AliCAKIR\source\repos\ReadingAndSendMail\ReadingAndSendMail\ReadingAndSendMail\bin\Debug\ReadingAndSendMail.exe.config
 C:\Users\AliCAKIR\source\repos\ReadingAndSendMail\ReadingAndSendMail\ReadingAndSendMail\bin\Debug\ReadingAndSendMail.exe
 C:\Users\AliCAKIR\source\repos\ReadingAndSendMail\ReadingAndSendMail\ReadingAndSendMail\bin\Debug\ReadingAndSendMail.pdb
-C:\Users\AliCAKIR\source\repos\ReadingAndSendMail\ReadingAndSendMail\ReadingAndSendMail\bin\Debug\ActiveUp.Net.Common.dll
-C:\Users\AliCAKIR\source\repos\ReadingAndSendMail\ReadingAndSendMail\ReadingAndSendMail\bin\Debug\ActiveUp.Net.dll
-C:\Users\AliCAKIR\source\repos\ReadingAndSendMail\ReadingAndSendMail\ReadingAndSendMail\bin\Debug\ActiveUp.Net.Imap4.dll
-C:\Users\AliCAKIR\source\repos\ReadingAndSendMail\ReadingAndSendMail\ReadingAndSendMail\bin\Debug\ActiveUp.Net.Mail.dll
-C:\Users\AliCAKIR\source\repos\ReadingAndSendMail\ReadingAndSendMail\ReadingAndSendMail\bin\Debug\ActiveUp.Net.Smtp.dll
 C:\Users\AliCAKIR\source\repos\ReadingAndSendMail\ReadingAndSendMail\ReadingAndSendMail\bin\Debug\ActiveUp.Net.Common.xml
 C:\Users\AliCAKIR\source\repos\ReadingAndSendMail\ReadingAndSendMail\ReadingAndSendMail\bin\Debug\ActiveUp.Net.Imap4.xml
 C:\Users\AliCAKIR\source\repos\ReadingAndSendMail\ReadingAndSendMail\ReadingAndSendMail\bin\Debug\ActiveUp.Net.Mail.xml
@@ -44,3 +39,8 @@ C:\Users\AliCAKIR\source\repos\ReadingAndSendMail\ReadingAndSendMail\ReadingAndS
 C:\Users\AliCAKIR\source\repos\ReadingAndSendMail\ReadingAndSendMail\ReadingAndSendMail\obj\Debug\ReadingAndSendMail.csproj.CopyComplete
 C:\Users\AliCAKIR\source\repos\ReadingAndSendMail\ReadingAndSendMail\ReadingAndSendMail\obj\Debug\ReadingAndSendMail.exe
 C:\Users\AliCAKIR\source\repos\ReadingAndSendMail\ReadingAndSendMail\ReadingAndSendMail\obj\Debug\ReadingAndSendMail.pdb
+C:\Users\AliCAKIR\source\repos\ReadingAndSendMail\ReadingAndSendMail\ReadingAndSendMail\bin\Debug\ActiveUp.Net.Common.dll
+C:\Users\AliCAKIR\source\repos\ReadingAndSendMail\ReadingAndSendMail\ReadingAndSendMail\bin\Debug\ActiveUp.Net.dll
+C:\Users\AliCAKIR\source\repos\ReadingAndSendMail\ReadingAndSendMail\ReadingAndSendMail\bin\Debug\ActiveUp.Net.Imap4.dll
+C:\Users\AliCAKIR\source\repos\ReadingAndSendMail\ReadingAndSendMail\ReadingAndSendMail\bin\Debug\ActiveUp.Net.Mail.dll
+C:\Users\AliCAKIR\source\repos\ReadingAndSendMail\ReadingAndSendMail\ReadingAndSendMail\bin\Debug\ActiveUp.Net.Smtp.dll
