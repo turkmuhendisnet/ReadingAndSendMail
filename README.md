@@ -8,6 +8,9 @@
 ### Sürekli Çalışıtr
   The Sürekli Çalışıtr button checks the mails coming from the Okunacak Mail Adresleri list to your mailbox during the Kontrol Sıklığı period in the Ayarlar tabshet and displays them in the listwiv on the right.
   
+### Durdur
+  Program to stop mail checking in Sürekli Çalışıtr mode.
+  
 ![Main View](https://github.com/turkmuhendisnet/ReadingAndSendMail/blob/master/ReadingAndSendMail/ReadingAndSendMailMainView.PNG)
 
 ## Ayarlar
