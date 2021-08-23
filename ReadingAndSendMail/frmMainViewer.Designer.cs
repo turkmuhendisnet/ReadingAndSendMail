@@ -113,6 +113,8 @@ namespace ReadingAndSendMail
             this.tmrSaat = new System.Windows.Forms.Timer(this.components);
             this.tmrKontrol = new System.Windows.Forms.Timer(this.components);
             this.tolHint = new System.Windows.Forms.ToolTip(this.components);
+            this.rchtxtCevap = new System.Windows.Forms.RichTextBox();
+            this.lblCevap = new System.Windows.Forms.Label();
             this.grpBxMain.SuspendLayout();
             this.tbsTabs.SuspendLayout();
             this.tbsMail.SuspendLayout();
@@ -581,6 +583,8 @@ namespace ReadingAndSendMail
             // pnlAyarlar
             // 
             this.pnlAyarlar.BackColor = System.Drawing.Color.LightCyan;
+            this.pnlAyarlar.Controls.Add(this.lblCevap);
+            this.pnlAyarlar.Controls.Add(this.rchtxtCevap);
             this.pnlAyarlar.Controls.Add(this.grpSendErrMai);
             this.pnlAyarlar.Controls.Add(this.groupBox1);
             this.pnlAyarlar.Controls.Add(this.grpBx);
@@ -1003,6 +1007,23 @@ namespace ReadingAndSendMail
             this.tolHint.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
             this.tolHint.ToolTipTitle = "Açıklama";
             // 
+            // rchtxtCevap
+            // 
+            this.rchtxtCevap.Location = new System.Drawing.Point(552, 182);
+            this.rchtxtCevap.Name = "rchtxtCevap";
+            this.rchtxtCevap.Size = new System.Drawing.Size(199, 104);
+            this.rchtxtCevap.TabIndex = 27;
+            this.rchtxtCevap.Text = "Bildirim mailidir cevaplamayınız!";
+            // 
+            // lblCevap
+            // 
+            this.lblCevap.AutoSize = true;
+            this.lblCevap.Location = new System.Drawing.Point(549, 165);
+            this.lblCevap.Name = "lblCevap";
+            this.lblCevap.Size = new System.Drawing.Size(105, 15);
+            this.lblCevap.TabIndex = 28;
+            this.lblCevap.Text = "Cevap Maili Metni";
+            // 
             // frmMainViewer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1031,6 +1052,7 @@ namespace ReadingAndSendMail
             this.grpGonMaiAdr.PerformLayout();
             this.tbsAyarlar.ResumeLayout(false);
             this.pnlAyarlar.ResumeLayout(false);
+            this.pnlAyarlar.PerformLayout();
             this.grpSendErrMai.ResumeLayout(false);
             this.grpSendErrMai.PerformLayout();
             this.groupBox1.ResumeLayout(false);
@@ -1125,6 +1147,8 @@ namespace ReadingAndSendMail
         private System.Windows.Forms.Button btnHatDiz;
         private System.Windows.Forms.TextBox txtHatDiz;
         private System.Windows.Forms.Label lblHatDiz;
+        private System.Windows.Forms.Label lblCevap;
+        private System.Windows.Forms.RichTextBox rchtxtCevap;
     }
 }
 

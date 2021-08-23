@@ -194,7 +194,7 @@ namespace ReadingAndSendMail
                 }
 
                 mailmessage.Subject = sOldFileName.Substring(2, sOldFileName.Length - 2);
-                mailmessage.Body = "Bildirim mailidir cevaplamayınız";
+                mailmessage.Body = rchtxtCevap.Text;
                 mailmessage.Attachments.Add(new Attachment(sNewFile));
 
                 using (System.Net.Mail.SmtpClient smtp = new System.Net.Mail.SmtpClient())
