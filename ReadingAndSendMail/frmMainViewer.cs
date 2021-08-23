@@ -236,8 +236,8 @@ namespace ReadingAndSendMail
             btnRunContinuously.Enabled=!btnRunOneTime.Enabled;
             btnRunContinuously.BackColor = Color.Red;
             ReceiveAndSaveMails();
-            if (chbCevapMailiGonderilsin.Checked)
-                PrepareFile();
+            //if (chbCevapMailiGonderilsin.Checked)
+            //    PrepareFile();
             btnRunContinuously.Enabled = btnRunOneTime.Enabled;
             btnRunContinuously.BackColor = Color.DeepSkyBlue;
             AddStatusAndProgres("İşlemler tamamlandı", 100);
