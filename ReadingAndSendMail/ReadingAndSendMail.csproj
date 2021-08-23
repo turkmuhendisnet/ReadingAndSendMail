@@ -139,5 +139,11 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Image\ReadingAndSendMailMailView.PNG" />
+    <Content Include="Image\ReadingAndSendMailMainView.PNG" />
+    <Content Include="Image\ReadingAndSendMailSettingsView.PNG" />
+    <Content Include="Image\TextTemplate.ico" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

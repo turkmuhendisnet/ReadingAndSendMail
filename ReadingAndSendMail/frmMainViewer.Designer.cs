@@ -603,9 +603,9 @@ namespace ReadingAndSendMail
             this.grpSendErrMai.Controls.Add(this.edtSenErrMaiUsrMail);
             this.grpSendErrMai.Controls.Add(this.edtSenErrMaiUsrName);
             this.grpSendErrMai.Controls.Add(this.lsvSenErrMaiUsr);
-            this.grpSendErrMai.Location = new System.Drawing.Point(3, 301);
+            this.grpSendErrMai.Location = new System.Drawing.Point(820, 3);
             this.grpSendErrMai.Name = "grpSendErrMai";
-            this.grpSendErrMai.Size = new System.Drawing.Size(368, 391);
+            this.grpSendErrMai.Size = new System.Drawing.Size(368, 283);
             this.grpSendErrMai.TabIndex = 26;
             this.grpSendErrMai.TabStop = false;
             this.grpSendErrMai.Text = "Hata Maili Gönderilecek Kullanıcılar";
@@ -614,7 +614,7 @@ namespace ReadingAndSendMail
             // 
             this.lblSenErrMaiUsrMail.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.lblSenErrMaiUsrMail.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblSenErrMaiUsrMail.Location = new System.Drawing.Point(106, 312);
+            this.lblSenErrMaiUsrMail.Location = new System.Drawing.Point(106, 205);
             this.lblSenErrMaiUsrMail.Name = "lblSenErrMaiUsrMail";
             this.lblSenErrMaiUsrMail.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.lblSenErrMaiUsrMail.Size = new System.Drawing.Size(92, 19);
@@ -625,7 +625,7 @@ namespace ReadingAndSendMail
             // 
             this.lblSenErrMaiUsrName.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.lblSenErrMaiUsrName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblSenErrMaiUsrName.Location = new System.Drawing.Point(-6, 312);
+            this.lblSenErrMaiUsrName.Location = new System.Drawing.Point(-6, 205);
             this.lblSenErrMaiUsrName.Name = "lblSenErrMaiUsrName";
             this.lblSenErrMaiUsrName.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.lblSenErrMaiUsrName.Size = new System.Drawing.Size(92, 19);
@@ -636,7 +636,7 @@ namespace ReadingAndSendMail
             // 
             this.btnlsvSenErrMaiUsrAdd.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.btnlsvSenErrMaiUsrAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnlsvSenErrMaiUsrAdd.Location = new System.Drawing.Point(303, 361);
+            this.btnlsvSenErrMaiUsrAdd.Location = new System.Drawing.Point(303, 254);
             this.btnlsvSenErrMaiUsrAdd.Name = "btnlsvSenErrMaiUsrAdd";
             this.btnlsvSenErrMaiUsrAdd.Size = new System.Drawing.Size(59, 25);
             this.btnlsvSenErrMaiUsrAdd.TabIndex = 27;
@@ -651,7 +651,7 @@ namespace ReadingAndSendMail
             this.btnlsvSenErrMaiUsrDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnlsvSenErrMaiUsrDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnlsvSenErrMaiUsrDelete.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnlsvSenErrMaiUsrDelete.Location = new System.Drawing.Point(242, 361);
+            this.btnlsvSenErrMaiUsrDelete.Location = new System.Drawing.Point(242, 254);
             this.btnlsvSenErrMaiUsrDelete.Name = "btnlsvSenErrMaiUsrDelete";
             this.btnlsvSenErrMaiUsrDelete.Size = new System.Drawing.Size(55, 25);
             this.btnlsvSenErrMaiUsrDelete.TabIndex = 39;
@@ -662,7 +662,7 @@ namespace ReadingAndSendMail
             // 
             // edtSenErrMaiUsrMail
             // 
-            this.edtSenErrMaiUsrMail.Location = new System.Drawing.Point(118, 334);
+            this.edtSenErrMaiUsrMail.Location = new System.Drawing.Point(118, 227);
             this.edtSenErrMaiUsrMail.Name = "edtSenErrMaiUsrMail";
             this.edtSenErrMaiUsrMail.Size = new System.Drawing.Size(244, 21);
             this.edtSenErrMaiUsrMail.TabIndex = 26;
@@ -671,7 +671,7 @@ namespace ReadingAndSendMail
             // 
             // edtSenErrMaiUsrName
             // 
-            this.edtSenErrMaiUsrName.Location = new System.Drawing.Point(6, 334);
+            this.edtSenErrMaiUsrName.Location = new System.Drawing.Point(6, 227);
             this.edtSenErrMaiUsrName.Name = "edtSenErrMaiUsrName";
             this.edtSenErrMaiUsrName.Size = new System.Drawing.Size(106, 21);
             this.edtSenErrMaiUsrName.TabIndex = 25;
@@ -688,7 +688,7 @@ namespace ReadingAndSendMail
             this.lsvSenErrMaiUsr.HideSelection = false;
             this.lsvSenErrMaiUsr.Location = new System.Drawing.Point(6, 20);
             this.lsvSenErrMaiUsr.Name = "lsvSenErrMaiUsr";
-            this.lsvSenErrMaiUsr.Size = new System.Drawing.Size(356, 289);
+            this.lsvSenErrMaiUsr.Size = new System.Drawing.Size(356, 174);
             this.lsvSenErrMaiUsr.TabIndex = 25;
             this.tolHint.SetToolTip(this.lsvSenErrMaiUsr, "Program çalışmasında hata alındığında mail gönderilecek adresler.");
             this.lsvSenErrMaiUsr.UseCompatibleStateImageBehavior = false;
