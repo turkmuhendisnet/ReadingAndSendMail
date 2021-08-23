@@ -11,7 +11,7 @@
 ### Durdur
   Program to stop mail checking in Sürekli Çalışıtr mode.
   
-![Main View](https://github.com/turkmuhendisnet/ReadingAndSendMail/blob/master/ReadingAndSendMail/ReadingAndSendMailMainView.PNG)
+![Main View](https://github.com/turkmuhendisnet/ReadingAndSendMail/blob/master/ReadingAndSendMail/Image/ReadingAndSendMailMainView.PNG)
 
 ## Ayarlar
 ### Gelen Dosyaların Kaydedileceği Dizin
@@ -29,11 +29,11 @@
 ### Hata Maili Gönderilecek Kullanıcılar
   The e-mail addresses of the users to whom an e-mail will be sent when an error occurs in the program.
 
-![Settings View](https://github.com/turkmuhendisnet/ReadingAndSendMail/blob/master/ReadingAndSendMail/ReadingAndSendMailSettingsView.PNG)
+![Settings View](https://github.com/turkmuhendisnet/ReadingAndSendMail/blob/master/ReadingAndSendMail/Image/ReadingAndSendMailSettingsView.PNG)
 
 
 ### Mail Görüntüleyici
-![Mail View](https://github.com/turkmuhendisnet/ReadingAndSendMail/blob/master/ReadingAndSendMail/ReadingAndSendMailMailView.PNG)
+![Mail View](https://github.com/turkmuhendisnet/ReadingAndSendMail/blob/master/ReadingAndSendMail/Image/ReadingAndSendMailMailView.PNG)
 
 
 ## Used Technologies
