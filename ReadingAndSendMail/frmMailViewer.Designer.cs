@@ -29,6 +29,7 @@ namespace ReadingAndSendMail
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMailViewer));
             this.lblMailCap = new System.Windows.Forms.Label();
             this.txtMailCap = new System.Windows.Forms.TextBox();
             this.lblFrom = new System.Windows.Forms.Label();
@@ -182,6 +183,7 @@ namespace ReadingAndSendMail
             this.Controls.Add(this.lblMailCap);
             this.Controls.Add(this.txtMailCap);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmMailViewer";
             this.Text = "Mail Görüntüleyici";
             this.ResumeLayout(false);
