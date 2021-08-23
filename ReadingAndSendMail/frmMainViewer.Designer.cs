@@ -95,6 +95,9 @@ namespace ReadingAndSendMail
             this.edtEpostSunucusu = new System.Windows.Forms.TextBox();
             this.chbCevapMailiGonderilsin = new System.Windows.Forms.CheckBox();
             this.grpBx = new System.Windows.Forms.GroupBox();
+            this.btnHatDiz = new System.Windows.Forms.Button();
+            this.txtHatDiz = new System.Windows.Forms.TextBox();
+            this.lblHatDiz = new System.Windows.Forms.Label();
             this.lblGelDosKayDiz = new System.Windows.Forms.Label();
             this.btnGelDosKayDiz = new System.Windows.Forms.Button();
             this.btnGidDosKayDiz = new System.Windows.Forms.Button();
@@ -110,9 +113,6 @@ namespace ReadingAndSendMail
             this.tmrSaat = new System.Windows.Forms.Timer(this.components);
             this.tmrKontrol = new System.Windows.Forms.Timer(this.components);
             this.tolHint = new System.Windows.Forms.ToolTip(this.components);
-            this.btnHatDiz = new System.Windows.Forms.Button();
-            this.txtHatDiz = new System.Windows.Forms.TextBox();
-            this.lblHatDiz = new System.Windows.Forms.Label();
             this.grpBxMain.SuspendLayout();
             this.tbsTabs.SuspendLayout();
             this.tbsMail.SuspendLayout();
@@ -169,7 +169,7 @@ namespace ReadingAndSendMail
             this.tbsMail.Padding = new System.Windows.Forms.Padding(3);
             this.tbsMail.Size = new System.Drawing.Size(1201, 705);
             this.tbsMail.TabIndex = 0;
-            this.tbsMail.Text = "Mail ile Alımlar";
+            this.tbsMail.Text = "Mailler";
             // 
             // pnlMailIslemSonuclari
             // 
@@ -819,6 +819,43 @@ namespace ReadingAndSendMail
             this.grpBx.TabStop = false;
             this.grpBx.Text = "Dizin Ayarları";
             // 
+            // btnHatDiz
+            // 
+            this.btnHatDiz.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnHatDiz.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnHatDiz.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnHatDiz.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnHatDiz.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnHatDiz.ForeColor = System.Drawing.Color.DarkRed;
+            this.btnHatDiz.Location = new System.Drawing.Point(708, 88);
+            this.btnHatDiz.Name = "btnHatDiz";
+            this.btnHatDiz.Size = new System.Drawing.Size(30, 21);
+            this.btnHatDiz.TabIndex = 20;
+            this.btnHatDiz.Text = "...";
+            this.btnHatDiz.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.btnHatDiz.UseVisualStyleBackColor = false;
+            this.btnHatDiz.Click += new System.EventHandler(this.btnHatDiz_Click);
+            // 
+            // txtHatDiz
+            // 
+            this.txtHatDiz.Location = new System.Drawing.Point(336, 88);
+            this.txtHatDiz.Name = "txtHatDiz";
+            this.txtHatDiz.Size = new System.Drawing.Size(402, 21);
+            this.txtHatDiz.TabIndex = 21;
+            this.tolHint.SetToolTip(this.txtHatDiz, "Programda çalışma zamanında alınan hataların txt dosyasının kaydedileceği dizin.");
+            // 
+            // lblHatDiz
+            // 
+            this.lblHatDiz.AutoSize = true;
+            this.lblHatDiz.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.lblHatDiz.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblHatDiz.Location = new System.Drawing.Point(6, 88);
+            this.lblHatDiz.Name = "lblHatDiz";
+            this.lblHatDiz.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.lblHatDiz.Size = new System.Drawing.Size(239, 15);
+            this.lblHatDiz.TabIndex = 19;
+            this.lblHatDiz.Text = "Program Hatalarının Kaydedileceği Dizin";
+            // 
             // lblGelDosKayDiz
             // 
             this.lblGelDosKayDiz.AutoSize = true;
@@ -965,43 +1002,6 @@ namespace ReadingAndSendMail
             this.tolHint.IsBalloon = true;
             this.tolHint.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
             this.tolHint.ToolTipTitle = "Açıklama";
-            // 
-            // btnHatDiz
-            // 
-            this.btnHatDiz.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.btnHatDiz.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnHatDiz.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnHatDiz.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnHatDiz.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnHatDiz.ForeColor = System.Drawing.Color.DarkRed;
-            this.btnHatDiz.Location = new System.Drawing.Point(708, 88);
-            this.btnHatDiz.Name = "btnHatDiz";
-            this.btnHatDiz.Size = new System.Drawing.Size(30, 21);
-            this.btnHatDiz.TabIndex = 20;
-            this.btnHatDiz.Text = "...";
-            this.btnHatDiz.TextAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.btnHatDiz.UseVisualStyleBackColor = false;
-            this.btnHatDiz.Click += new System.EventHandler(this.btnHatDiz_Click);
-            // 
-            // txtHatDiz
-            // 
-            this.txtHatDiz.Location = new System.Drawing.Point(336, 88);
-            this.txtHatDiz.Name = "txtHatDiz";
-            this.txtHatDiz.Size = new System.Drawing.Size(402, 21);
-            this.txtHatDiz.TabIndex = 21;
-            this.tolHint.SetToolTip(this.txtHatDiz, "Programda çalışma zamanında alınan hataların txt dosyasının kaydedileceği dizin.");
-            // 
-            // lblHatDiz
-            // 
-            this.lblHatDiz.AutoSize = true;
-            this.lblHatDiz.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.lblHatDiz.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblHatDiz.Location = new System.Drawing.Point(6, 88);
-            this.lblHatDiz.Name = "lblHatDiz";
-            this.lblHatDiz.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.lblHatDiz.Size = new System.Drawing.Size(239, 15);
-            this.lblHatDiz.TabIndex = 19;
-            this.lblHatDiz.Text = "Program Hatalarının Kaydedileceği Dizin";
             // 
             // frmMainViewer
             // 
